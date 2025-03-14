@@ -9,16 +9,28 @@ export default function Navbar() {
 
                 <ul className="hidden md:flex space-x-8 tesct-white">
                     <li className="">
-                        <a href="" className="cursor-pointer hover:text-gray-400 text-white">Home</a>
+                        <a href="" className="cursor-pointer hover:text-gray-400
+                         text-white">
+                            Home
+                        </a>
                     </li>
                     <li className="">
-                        <a href="" className="cursor-pointer hover:text-gray-400 text-white">Sobre</a>
+                        <a href="" className="cursor-pointer hover:text-gray-400
+                         text-white">
+                            Sobre
+                        </a>
                     </li>
                     <li className="">
-                        <a href="" className="cursor-pointer hover:text-gray-400 text-white">Projetos</a>
+                        <a href="" className="cursor-pointer hover:text-gray-400
+                         text-white">
+                            Projetos
+                        </a>
                     </li>
                     <li className="">
-                        <a href="" className="cursor-pointer hover:text-gray-400 text-white">Testemunhos</a>
+                        <a href="" className="cursor-pointer hover:text-gray-400
+                         text-white">
+                            Testemunhos
+                        </a>
                     </li>
                 </ul>
 
