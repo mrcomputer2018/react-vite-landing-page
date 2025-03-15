@@ -2,8 +2,8 @@ import { assets } from "../assets/assets";
 
 export default function About() {
     return (
-        <section className="mt-14 mb-26 flex flex-col items-center justify-center">
-            <div className="mb-18">
+        <section className="mt-14 mb-26 flex flex-col items-center justify-center px-1">
+            <div className="mb-18 text-center">
                 <h2 className="text-4xl tracking-wide">
                     <strong
                     className="mr-3 font-bold"
@@ -14,7 +14,7 @@ export default function About() {
                         Nossa Marca
                     </span>
                 </h2>
-                <span>
+                <span className="capitalize opacity-70 p-2">
                     Apaixonados por imóveis, dedicados à sua visão
                 </span>
             </div>
