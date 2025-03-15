@@ -25,7 +25,7 @@ export default function Projects() {
                 </span>
             </div>
 
-            <div className="flex flex-row flex-wrap justify-center gap-3">
+            <div className="flex flex-row flex-wrap justify-center gap-3 px-2">
                 <Carousel className="w-full max-w-7xl">
                     <CarouselContent className="-ml-1">
                         {projects.map((project, index) => (
