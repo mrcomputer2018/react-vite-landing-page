@@ -8,8 +8,8 @@ export default function Projects() {
     const [ projects ] = useState(projectsData);
 
     return (
-        <section className="mt-14 mb-26 flex flex-col items-center justify-center">
-            <div className="mb-18">
+        <section className="mt-14 mb-26 flex flex-col items-center justify-center px-1">
+            <div className="mb-18 text-center">
                 <h2 className="text-4xl tracking-wide">
                     <strong
                     className="mr-3 font-bold"
@@ -20,12 +20,12 @@ export default function Projects() {
                         Completados
                     </span>
                 </h2>
-                <span>
-                criando espaços, construindo legados - explore nosso portfólio
+                <span className="capitalize opacity-70 p-2">
+                    criando espaços, construindo legados - explore nosso portfólio
                 </span>
             </div>
 
-            <div className="flex flex-row flex-wrap justify-center gap-4">
+            <div className="flex flex-row flex-wrap justify-center gap-3 px-2">
                 <Carousel className="w-full max-w-7xl">
                     <CarouselContent className="-ml-1">
                         {projects.map((project, index) => (
