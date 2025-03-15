@@ -24,7 +24,7 @@ export default function About() {
                     <img 
                     src={assets.brand_img} 
                     alt="imagem da fachada da empresa"
-                    className="max-w-[400px] md:max-w-[520px] p-4 md:p-2" />
+                    className="max-w-[380px] md:max-w-[520px] p-4 md:p-2"/>
                 </div>
 
                 <div className="px-4 mt-10 lg:w-1/2">
