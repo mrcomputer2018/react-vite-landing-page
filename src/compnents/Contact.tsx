@@ -28,13 +28,15 @@ export default function Contact() {
 
         if (!name || !email || !message) {
            toast("Erro!!!",{
-                className: 'bg-red-500 border border-red-500 text-white',
+                className: '!bg-red-100 border !border-red-500',
                 description: "Todos os campos são obrigatórios",
                 duration: 5000,
                 icon: (
                     <MessageCircle className="w-4 h-4 mr-2 !text-red-500"/>
                 )
            })
+
+           setLoading(false);
 
             return;
         }
@@ -52,7 +54,7 @@ export default function Contact() {
                 setLoading(false);
 
                 toast("Sucesso!!!", {
-                    className: 'bg-green-600 border border-green-600 text-white',
+                    className: '!bg-green-100 border border-green-600',
                     description: "Mensagem enviada com sucesso",
                     duration: 5000,
                     icon: (
@@ -66,7 +68,7 @@ export default function Contact() {
                 setLoading(false);
 
                 toast("Erro!!!", {
-                    className: 'bg-red-500 border border-red-500 text-white',
+                    className: '!bg-red-100 border border-red-500',
                     description: "Erro ao enviar mensagem",
                     duration: 5000,
                     icon: (
@@ -114,7 +116,6 @@ export default function Contact() {
                                         placeholder="Digite seu nome..."
                                         value={name}
                                         onChange={(event) => setName(event.target.value)}
-                                        required
                                     />
                                 </div>
                                 <div className="w-1/2">
@@ -130,7 +131,6 @@ export default function Contact() {
                                         id="email"
                                         type="email"
                                         placeholder="Digite seu email..."
-                                        required
                                     />
                                 </div>
                             </div>
