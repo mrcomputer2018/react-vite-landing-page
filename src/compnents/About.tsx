@@ -2,7 +2,7 @@ import { assets } from "../assets/assets";
 
 export default function About() {
     return (
-        <section className="mt-14 mb-26 flex flex-col items-center justify-center px-1">
+        <section id="About" className="mt-14 mb-26 flex flex-col items-center justify-center px-1">
             <div className="mb-18 text-center">
                 <h2 className="text-4xl tracking-wide">
                     <strong
