@@ -135,7 +135,7 @@ export default function Contact() {
                                 </div>
                             </div>
 
-                            <div>
+                            <div className="mb-6">
                                 <Label htmlFor="message">Mensagem</Label>
 
                                 <Textarea 
