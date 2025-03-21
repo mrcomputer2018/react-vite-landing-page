@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import ButtonCustom from "./commons/Button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -146,8 +146,12 @@ export default function Contact() {
                                  />
                             </div>
 
-                            <div className=" flex justify-center">
-                                <Button type="submit" title="Enviar Mensagem"/>
+                            <div className="flex justify-center">
+                                {loading ? 
+                                    <ButtonCustom loading={loading}/> 
+                                    : 
+                                    <ButtonCustom type="submit" title="Enviar mensagem"/>
+                                }
                             </div>
                         </form>
                     </CardContent>
