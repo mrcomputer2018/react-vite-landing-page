@@ -24,7 +24,8 @@ export default function Testimonials() {
                 {testimonialsData.map((testimonial, index) => (
                     <div 
                     key={index} 
-                    className="flex flex-col items-center justify-center py-8 px-4 space-x-8 bg-white rounded-lg shadow-md max-w-[31opx] gap-2">
+                    className="flex flex-col items-center justify-center py-8 px-4 
+                    space-x-8 bg-white rounded-lg shadow-md max-w-[310px] mx-5">
                         <img 
                         src={testimonial.image} 
                         alt="imagem da testemunha" 
