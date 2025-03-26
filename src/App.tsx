@@ -1,5 +1,6 @@
 import About from "./compnents/About"
 import Contact from "./compnents/Contact"
+import Footer from "./compnents/Footer"
 import Header from "./compnents/Header"
 import Projects from "./compnents/Projects"
 import Testimonials from "./compnents/Testimonials"
@@ -16,6 +17,8 @@ function App() {
            <Testimonials />
 
            <Contact />
+
+           <Footer />
         </div>
     )
 }

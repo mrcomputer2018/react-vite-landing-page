@@ -20,7 +20,7 @@ export default function Testimonials() {
                 </span>
             </div>
 
-            <div className="flex flex-row justify-center gpap-6 max-w-7xl">
+            <div className="flex flex-col mb-6 md:mb-0 md:flex-row justify-center gap-10 max-w-7xl">
                 {testimonialsData.map((testimonial, index) => (
                     <div 
                     key={index} 
